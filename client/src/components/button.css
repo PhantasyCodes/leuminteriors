@@ -1,0 +1,18 @@
+.custom-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color:#212121;
+    color: #D6DBDF;
+    cursor: pointer;
+    transition: background-color 0.5s, transform 0.5s; 
+    min-width: 150px;
+    margin: 0;
+    margin-top: 20;
+    display: inline-block;
+    font-size: 18px;
+    &:hover {
+        font-weight: 105%;
+    transform: scale(1.2);
+    }
+}
